@@ -1,6 +1,6 @@
-# Myfirstapp
+# App-Colors
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.Introduccion: Este pequeo proyecto hace parte de una prueba de conocimientos como requisito para contratacion como desarrollador Front End, se trata de una aplicacion que consume una API la cual entrega una lista de colores y caracteristicas de cada color, la idea es mostrar los colores en una lista tipo tarjeta y que al precionar click sobre la tarjeta del color seleccionado copie la informacion del color y el nombre al portapapeles, para regresar a la lista de colores debe precionar click sobre el titulo y volvera a mostrar la lista de colores. Para este proyecto utilice Angular 7 (tecnologias: HTML, CSS, JavaScript, TapeScript) no tuve necesidad de montar ninguna dependencia adicional. Hice deploy para IIS y funciono perfecto, tambien en Heroku Agregue las dependencias de boostrap
 
 ## Development server
 
