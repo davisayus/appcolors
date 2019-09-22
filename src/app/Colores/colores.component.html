@@ -1,0 +1,11 @@
+
+<div class="row">
+    <div *ngFor='let color of l_dcolores'>
+        <div class="col-sm-6" >
+            <div class="card" (click)="div_card_click(color)" >
+                <color [color]="color"></color>
+            </div>
+        </div>
+    </div>
+</div>
+

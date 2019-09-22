@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div class="card" style="text-align:center">
+    <h3 style="color:black"> {{ title }} </h3>
+</div>
+
+<div *ngIf="seleccionado==false" >
+    <colores (eE_Colores)="click_seleccion($event)"></colores>
+</div>
+<div *ngIf="seleccionado==true" style="height: 88%">
+    <copia [color]="color"></copia>
+</div>
+
+<div style="position: fixed; bottom: 0; left: 0; height: 30px; width:100%; border-style:ridge " >
+    
+    <div (click)="unselected()" style="position: absolute; left: 80%; "><a [routerLink]=''>Volver</a></div>
+</div>
+
+<router-outlet></router-outlet>
